@@ -1,0 +1,6 @@
+a = set(int(x) for x in input("First set numbers: ").split())
+b = set(int(x) for x in input("Second set numbers: ").split())
+print("Union:", a | b)
+print("Intersection:", a & b)
+print("Difference (A-B):", a - b)
+print("Symmetric difference:", a ^ b)

@@ -1,0 +1,5 @@
+a = (1, 2, 3)
+b = (4, 5)
+print("Concatenation:", a + b)
+print("Repetition:", a * 2)
+print("Slice:", a[1:])
